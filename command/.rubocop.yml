@@ -1,0 +1,20 @@
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+
+Naming/MethodParameterName:
+  Enabled: false
+
+Lint/MissingSuper:
+  Enabled: false
+
+Naming/AccessorMethodName:
+  Exclude:
+    - 'lib/remote_control.rb'
